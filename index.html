@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة AURA | للخدمات المصغرة والضمان الذكي</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-slate-900 text-white font-sans">
+
+    <!-- Navbar -->
+    <nav class="flex justify-between items-center px-6 py-4 bg-slate-800 border-b border-slate-700">
+        <div class="flex items-center gap-2">
+            <span class="text-2xl font-extrabold text-blue-500">$AURA</span>
+            <span class="text-xs bg-blue-500/20 text-blue-400 px-2 py-1 rounded">Platform</span>
+        </div>
+        <button id="connectBtn" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-xl transition flex items-center gap-2">
+            <i class="fa-solid fa-wallet"></i> ربط المحفظة
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="text-center py-12 px-4 max-w-3xl mx-auto">
+        <h1 class="text-4xl font-bold mb-4 leading-tight">سوق الخدمات المصغرة المعزز بـ <span class="text-blue-500">الضمان الذكي</span></h1>
+        <p class="text-slate-400 mb-6">احصل على خدمات احترافية ودفع آمن عبر عملة $AURA وعقود الضمان الذكية بدون وسيط.</p>
+        <div class="flex justify-center gap-4">
+            <a href="#services" class="bg-blue-600 px-6 py-3 rounded-xl font-semibold hover:bg-blue-700">تصفح الخدمات</a>
+            <a href="#escrow" class="bg-slate-800 border border-slate-700 px-6 py-3 rounded-xl font-semibold hover:bg-slate-700">إنشاء عقد ضمان</a>
+        </div>
+    </header>
+
+    <!-- Services Grid -->
+    <section id="services" class="max-w-6xl mx-auto px-6 py-8">
+        <h2 class="text-2xl font-bold mb-6">أحدث الخدمات المتاحة</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            
+            <div class="bg-slate-800 p-5 rounded-2xl border border-slate-700">
+                <div class="h-40 bg-slate-700 rounded-xl mb-4 flex items-center justify-center text-slate-500">
+                    <i class="fa-solid fa-code text-4xl"></i>
+                </div>
+                <h3 class="font-bold text-lg mb-2">تطوير عقود ذكية وتدقيقها</h3>
+                <p class="text-slate-400 text-sm mb-4">كتابة عقود Solidity مخصصة لشبكات EVM مع اختبارات الأمان.</p>
+                <div class="flex justify-between items-center pt-2 border-t border-slate-700">
+                    <span class="text-blue-400 font-bold">500 $AURA</span>
+                    <button class="bg-blue-600/20 text-blue-400 px-3 py-1 rounded-lg hover:bg-blue-600 hover:text-white transition">طلب الخدمة</button>
+                </div>
+            </div>
+
+            <div class="bg-slate-800 p-5 rounded-2xl border border-slate-700">
+                <div class="h-40 bg-slate-700 rounded-xl mb-4 flex items-center justify-center text-slate-500">
+                    <i class="fa-solid fa-paint-brush text-4xl"></i>
+                </div>
+                <h3 class="font-bold text-lg mb-2">تصميم واجهات وتطبيقات Web3</h3>
+                <p class="text-slate-400 text-sm mb-4">تصميم واجهات مستخدم متجاوبة مع ربط محفظة MetaMask.</p>
+                <div class="flex justify-between items-center pt-2 border-t border-slate-700">
+                    <span class="text-blue-400 font-bold">300 $AURA</span>
+                    <button class="bg-blue-600/20 text-blue-400 px-3 py-1 rounded-lg hover:bg-blue-600 hover:text-white transition">طلب الخدمة</button>
+                </div>
+            </div>
+
+            <div class="bg-slate-800 p-5 rounded-2xl border border-slate-700">
+                <div class="h-40 bg-slate-700 rounded-xl mb-4 flex items-center justify-center text-slate-500">
+                    <i class="fa-solid fa-bullhorn text-4xl"></i>
+                </div>
+                <h3 class="font-bold text-lg mb-2">تسويق وإطلاق مشاريع الكريبتو</h3>
+                <p class="text-slate-400 text-sm mb-4">إدارة الحملات الإعلانية ومجموعات التليجرام للمشاريع الجديده.</p>
+                <div class="flex justify-between items-center pt-2 border-t border-slate-700">
+                    <span class="text-blue-400 font-bold">450 $AURA</span>
+                    <button class="bg-blue-600/20 text-blue-400 px-3 py-1 rounded-lg hover:bg-blue-600 hover:text-white transition">طلب الخدمة</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+</html>
